@@ -1,12 +1,13 @@
 {
   "required": true,
-  "package": "com.example.examplemod.mixin",
+  "package": "tfar.offhandcrash.mixin",
   "compatibilityLevel": "JAVA_8",
-  "refmap": "examplemod.refmap.json",
+  "refmap": "offhandcrash.refmap.json",
   "mixins": [
   ],
-  "client":[
-    "ExampleMixin"
+  "client": [
+    "ForceServerMixin",
+    "LivingEntityMixin"
   ],
   "injectors": {
     "defaultRequire": 1
